@@ -20,3 +20,23 @@
     $ node
     >.load ./filename.js
     
+##### DataTypes
+    -Number(with decimals)
+    -String
+    -Boolean(treu/false)
+    -Null(intentional absence of a value)
+    -Undefined
+    -Symbol
+    -Object
+
+##### Declaring variables
+    var is used in legacy codes
+    let and const are more in use now
+    let : can be reAssigned values , un assigned 'let' by default has value undefined
+    const : Cannot be reassigned
+##### String Interpolation
+    let s = 'Like this'
+    console.log(`Modify string ${s}`)
+
+##### Misc 1
+    console.log(typeof newVariable)
