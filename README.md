@@ -40,3 +40,30 @@
 
 ##### Misc 1
     console.log(typeof newVariable)
+    let value = x || 'pen'; //assign default val
+    
+##### Functions
+
+    //Sane way of writing function
+    function fun_name(param1 = def_val,param2,...){}
+    
+    //ok-ish way
+    const function_expression_name = function(params){ } //define
+    function_expression_name(params) //call
+    
+    //0 params
+    const function_expression_name = () => {  }
+    function_expression_name()
+    
+    //1 param
+    const function_expression_name = param1 => { } //define
+    function_expression_name(param1) //call
+    
+    //more than 1 params
+    const function_expression_name = (param1,param2..) => { } //define
+    function_expression_name(params) //call
+    
+    //single line function aka concise body funn
+    const function_expression_name = param1 => single line operation; //even return is not necessary
+    
+    
