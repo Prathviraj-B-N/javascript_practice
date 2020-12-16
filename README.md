@@ -66,4 +66,8 @@
     //single line function aka concise body funn
     const function_expression_name = param1 => single line operation; //even return is not necessary
     
+##### Scopes
+    Code in local blocks can access global data but reverse isn't possible.
+    
+    Scope pollution : Too many global vars
     
