@@ -71,3 +71,11 @@
     
     Scope pollution : Too many global vars
     
+##### Arrays
+    let arr = [ 'x',1,true]
+    
+    arr.join(' ')
+    arr.indexOf(key)
+    
+
+    
