@@ -148,5 +148,7 @@
     
     
 ##### Built in obj [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods) V.Imp...
+
+##### Iterators , map ,filters -> check [005.Iterator.js](https://github.com/Prathviraj-B-N/javascript_practice/blob/main/005.Iterators.js)
     
     
