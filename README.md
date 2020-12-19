@@ -77,5 +77,40 @@
     arr.join(' ')
     arr.indexOf(key)
     
+##### Objects
+    //objs are passed by ref
+    //reassigning whole obj inside a fuunction wont work
+    let obj = {}; //empty object
+    //We fill an object with unordered data. This data is organized into key-value pairs
+    
+    let spaceship = {
+        'Fuel Type': 'diesel',
+         color: 'silver'
+    };
+    
+    //access
+    spaceship.color;
+    and
+    spaceship['Fuel Type']; //[] for string type key
+    
+    //updating 
+    spaceship.color = 'red';
+    
+    delete spaceship.color;
+    
+    //We can iterate through objects using the For...in syntax
+    
+##### Methods
+    const alienShip = {
+        retreat(){
+            console.log(retreatMessage)
+        },
+
+        takeOff(){
+            console.log('Spim... Borp... Glix... Blastoff!')
+        }
+    }
 
     
+##### Nested objects
+    objs can have objs as values , similar to json
