@@ -114,3 +114,39 @@
     
 ##### Nested objects
     objs can have objs as values , similar to json
+
+##### Getters and Setters
+    underscore is used as symbol to represent private var conceptually
+    inside an object:
+    obj = {
+        _val1 : 1,
+        _val2: 2,
+        
+        get values(){
+         lines...
+        }
+    }
+    //then call
+    obj.values
+    
+    same with setters 
+    
+    obj.set_fun = val
+
+##### Factory object generators
+    function Factory(model, mobile){
+        return {
+            model,
+            mobile,
+        beep() {
+            console.log('Beep Boop');
+        }
+        }
+    }
+    
+    const newObj = Factory('x',true);
+    
+    
+##### Built in obj [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods) V.Imp...
+    
+    
